@@ -4,25 +4,158 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Levi Ackerman | Skills</title>
+  <link rel="icon" type = "image/png" href = "https://tse1.mm.bing.net/th/id/OIP.y9eYrtuLkihaJk5oqVB0ggHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3">
   <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/5a/Scouting_Legion_Logo.png" type="image/png">
-  <style>
-    body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #1e3d26, #2f4f2f, #4d704d, #8fae8f); background-attachment: fixed; color: #1e3d26; margin: 0; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
-    header { text-align: center; color: #fff; margin-top: 40px; text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
-    nav { background-color: rgba(46,70,46,0.9); text-align:center; padding:10px 20px; border-radius:10px; margin-top:15px; box-shadow:0 0 15px rgba(0,0,0,0.3); }
-    nav a { color:#f0fff0; text-decoration:none; margin:0 15px; font-weight:bold; }
-    nav a:hover{color:#b6ffb6;}
-    main { background-color:rgba(255,255,255,0.9); width:85%; max-width:950px; border-radius:20px; margin:30px 0; padding:25px 35px; box-shadow:0 0 30px rgba(0,0,0,0.4); }
-    table{width:100%;border-collapse:collapse;margin-top:20px;}
-    th,td{border:1px solid #3e5f3e;padding:10px;text-align:center;}
-    th{background-color:#3e5f3e;color:white;}
-    tr:nth-child(even){background-color:#e1f0e1;}
-    footer{background-color:rgba(47,79,47,0.9);color:white;text-align:center;padding:15px 0;width:100%;}
-    footer a{color:#b6ffb6;text-decoration:none;}
-  </style>
+     <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to right, #c2a98a, #f1e2d0, #b69477, #9b7a63);
+            background-attachment: fixed;
+            color: #3e2e26;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(245, 235, 220, 0.85);
+            border-radius: 20px;
+            margin-top: 25px;
+            padding: 25px 50px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            color: #4e3a33;
+        }
+
+        header h2 {
+            font-size: 1.2em;
+            color: #7a6657;
+            font-style: italic;
+        }
+
+        nav {
+            margin: 25px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4b3b36;
+            background-color: #decbb6;
+            padding: 10px 20px;
+            border-radius: 12px;
+            margin: 6px;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #a98b76;
+            color: #fff;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 25px;
+            padding: 40px;
+            margin: 20px;
+            width: 80%;
+            max-width: 900px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+        }
+
+        .photo-frame {
+            display: inline-block;
+            background: #6e5544; 
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            margin: 25px auto;
+        }
+
+        .photo-frame-inner {
+            background: #f5eee5; 
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        }
+
+        .photo-frame img {
+            display: block;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 4px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+        }
+
+        .frame-soft {
+            border: 6px solid #b79f8a;
+            border-radius: 12px;
+            background-color: #f9f1e8;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+            width: 55%;
+            margin: 25px auto;
+            padding: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .frame-soft:hover {
+            transform: scale(1.03);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 25px auto;
+            background-color: #f5eee5;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+        }
+
+        th, td {
+            border: 1px solid #7a6657;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #a98b76;
+            color: white;
+        }
+
+        footer {
+            margin-top: 35px;
+            padding: 20px;
+            background-color: rgba(91, 69, 59, 0.9);
+            color: #f4e9da;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 100%;
+            text-align: center;
+        }
+
+        footer a {
+            color: #f4e9da;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        iframe {
+            border-radius: 15px;
+            margin-top: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
 
-<header><h1>Levi Ackerman’s Skills</h1></header>
+<header><h1>Levi skillset ! 𓂃 ࣪˖ ִֶָ𐀔 </h1></header>
 
 <nav>
   <a href="../public/2Q1GCesiumQuodala.html">Home</a>
@@ -31,26 +164,56 @@
 </nav>
 
 <main>
-  <p>Levi’s mastery of the Omni-Directional Mobility Gear (ODM) is unmatched. His agility and reflexes allow him to move faster and more precisely than any other soldier. Combined with his ruthless focus and calm in battle, Levi is known as “Humanity’s Strongest.”</p>
+        <div class="photo-frame">
+            <div class="photo-frame-inner">
+                <img src="https://i.pinimg.com/1200x/64/27/3b/64273b7c114d7a869298c2416b4eb159.jpg" alt="Levi Ackerman in Combat">
+            </div>
+        </div>
 
-  <p>Beyond physical skill, Levi possesses extraordinary mental discipline and tactical intelligence. He can make split-second decisions that save lives and turn hopeless situations into victories.</p>
-  
+        <div class="frame-soft">
+            <h3>ᯓ✦ Core Skills</h3>
 
-  <table>
-    <tr>
-      <th rowspan="2">Skill</th>
-      <th colspan="2">Effectiveness</th>
-      <th rowspan="2">Remarks</th>
-    </tr>
-    <tr>
-      <th>Offense</th><th>Defense</th>
-    </tr>
-    <tr><td>ODM Gear Mastery</td><td>10/10</td><td>9/10</td><td>Fastest user in the Corps</td></tr>
-    <tr><td>Blade Combat</td><td>10/10</td><td>8/10</td><td>Unmatched precision</td></tr>
-    <tr><td>Leadership</td><td>8/10</td><td>8/10</td><td>Commands elite squads</td></tr>
-    <tr><td>Tactical Awareness</td><td>9/10</td><td>10/10</td><td>Analyzes battles instantly</td></tr>
-    <tr><td>Endurance</td><td>9/10</td><td>9/10</td><td>Injured yet unstoppable</td></tr>
-  </table>
+            <table>
+                <tr>
+                    <th rowspan="2">Skill</th>
+                    <th colspan="2">Details</th>
+                </tr>
+                <tr>
+                    <th>Mastery</th>
+                </tr>
+                <tr>
+                    <td>3D Maneuver Gear</td>
+                    <td>Master</td>
+                </tr>
+                <tr>
+                    <td>Swordsmanship</td>
+                    <td>Elite</td>
+                </tr>
+                <tr>
+                    <td>Leadership</td>
+                    <td>Veteran Captain</td>
+                </tr>
+                <tr>
+                    <td>Strategy</td>
+                    <td>Genius</td>
+                </tr>
+                <tr>
+                    <td>Discipline</td>
+                    <td>Unbreakable</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="frame-soft">
+            <h3>Achievements 𐔌˙. </h3>
+            <ul style="list-style: none; padding: 0; font-style: italic;">
+                <li>defeated the Female Titan in direct combat</li>
+                <li>led multiple successful expeditions beyond the Walls</li>
+                <li>took down the Beast Titan</li>
+            </ul>
+        </div>
+    </div>
+
 
 </main>
 

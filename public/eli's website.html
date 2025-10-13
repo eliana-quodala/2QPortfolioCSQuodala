@@ -8,151 +8,159 @@
     </head>
     <body>
         <h1> ᶻ 𝗓 𐰁 .ᐟ Levi Ackerman</h1>
-        <img src = "https://i.pinimg.com/736x/52/ab/21/52ab21893d730f55627031576c4fb4d3.jpg" width = "300" alt = "s4 Levi">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #1e3d26, #2f4f2f, #4d704d, #8fae8f);
-      background-attachment: fixed;
-      color: #1e3d26;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      min-height: 100vh;
-    }
+        <img src = "https://i.pinimg.com/736x/52/ab/21/52ab21893d730f55627031576c4fb4d3.jpg" width = "300" alt = "s4 Levi" class="framed photo">
+        
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to right, #c2a98a, #f1e2d0, #b69477, #9b7a63);
+            background-attachment: fixed;
+            color: #3e2e26;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
 
-    header {
-      text-align: center;
-      color: #fff;
-      margin-top: 40px;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    }
+        header {
+            background-color: rgba(245, 235, 220, 0.85);
+            border-radius: 20px;
+            margin-top: 25px;
+            padding: 25px 50px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
 
-    header h1 {
-      font-size: 2.3em;
-      margin: 0;
-    }
+        header h1 {
+            font-size: 2.8em;
+            color: #4e3a33;
+        }
 
-    header h2 {
-      margin-top: 6px;
-      font-weight: normal;
-      font-size: 1.1em;
-      color: #d0e6c9;
-    }
+        header h2 {
+            font-size: 1.2em;
+            color: #7a6657;
+            font-style: italic;
+        }
 
-    nav {
-      background-color: rgba(46, 70, 46, 0.9);
-      text-align: center;
-      padding: 10px 20px;
-      border-radius: 10px;
-      margin-top: 15px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    }
+        nav {
+            margin: 25px 0;
+        }
 
-    nav a {
-      color: #f0fff0;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
+        nav a {
+            text-decoration: none;
+            color: #4b3b36;
+            background-color: #decbb6;
+            padding: 10px 20px;
+            border-radius: 12px;
+            margin: 6px;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
 
-    nav a:hover {
-      color: #b6ffb6;
-    }
+        nav a:hover {
+            background-color: #a98b76;
+            color: #fff;
+        }
 
-    main {
-      background-color: rgba(255, 255, 255, 0.9);
-      width: 85%;
-      max-width: 950px;
-      border-radius: 20px;
-      margin: 30px 0;
-      padding: 25px 35px;
-      box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(5px);
-    }
+        .content {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 25px;
+            padding: 40px;
+            margin: 20px;
+            width: 80%;
+            max-width: 900px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+        }
 
-    main h3 {
-      text-align: center;
-      color: #2f4f2f;
-      border-bottom: 2px solid #2f4f2f;
-      padding-bottom: 5px;
-      margin-top: 10px;
-    }
+        .photo-frame {
+            display: inline-block;
+            background: #6e5544; 
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            margin: 25px auto;
+        }
 
-    .content {
-      line-height: 1.7;
-      color: #1f351f;
-    }
+        .photo-frame-inner {
+            background: #f5eee5; 
+            padding: 10px;
+            border-radius: 4px;
+            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        }
 
-    .content img {
-      display: block;
-      max-width: 80%;
-      margin: 20px auto;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    }
+        .photo-frame img {
+            display: block;
+            width: 100%;
+            max-width: 450px;
+            border-radius: 4px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+        }
 
-    .video {
-      text-align: center;
-      margin: 25px 0;
-    }
+        .frame-soft {
+            border: 6px solid #b79f8a;
+            border-radius: 12px;
+            background-color: #f9f1e8;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+            width: 55%;
+            margin: 25px auto;
+            padding: 6px;
+            transition: all 0.3s ease;
+        }
 
-    iframe {
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    }
+        .frame-soft:hover {
+            transform: scale(1.03);
+        }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 25px;
-      background-color: #f7fbf7;
-      border-radius: 10px;
-      overflow: hidden;
-    }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 25px auto;
+            background-color: #f5eee5;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+        }
 
-    th, td {
-      border: 1px solid #3e5f3e;
-      padding: 10px;
-      text-align: center;
-    }
+        th, td {
+            border: 1px solid #7a6657;
+            padding: 10px;
+        }
 
-    th {
-      background-color: #3e5f3e;
-      color: #fff;
-    }
+        th {
+            background-color: #a98b76;
+            color: white;
+        }
 
-    tr:nth-child(even) {
-      background-color: #e1f0e1;
-    }
+        footer {
+            margin-top: 35px;
+            padding: 20px;
+            background-color: rgba(91, 69, 59, 0.9);
+            color: #f4e9da;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            width: 100%;
+            text-align: center;
+        }
 
-    footer {
-      background-color: rgba(47, 79, 47, 0.9);
-      color: white;
-      text-align: center;
-      padding: 15px 0;
-      width: 100%;
-      box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.3);
-    }
+        footer a {
+            color: #f4e9da;
+            text-decoration: none;
+            margin: 0 10px;
+        }
 
-    footer a {
-      color: #b6ffb6;
-      text-decoration: none;
-    }
+        footer a:hover {
+            text-decoration: underline;
+        }
 
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-  </style>
+        iframe {
+            border-radius: 15px;
+            margin-top: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
 
   <header>
-    <h2>The Humanity’s Strongest Soldier | Attack on Titan</h2>
+    <h2>Humanity’s Strongest Soldier</h2>
   </header>
 
   <nav>
@@ -165,11 +173,11 @@
     <h3>about him ! ꉂ(˵˃ ᗜ ˂˵)</h3>
     <div class="content">
       <p>Levi Ackerman is referred to as humanity’s strongest soldier in the Attack on Titan universe !</p>
-
-      <p>Despite his cold appearance, Levi possesses a deep sense of duty and compassion for his comrades. His tragic past and relentless pursuit of humanity’s freedom define his character and his leadership within the military ranks.</p>
-
-      <p>Levi’s strength is not only physical but also mental—his strategic mind, discipline, and willpower make him one of the most respected figures in the series.</p>
-
+      <p>He appears cold and distant, very strict with his subordinates and colleagues. This leads to the premonition that he despises most of his fellow soldiers.</p>
+      <p> However, this is mostly due to his own PTSD and implied depression, he's afraid of getting too close with his comrades since most of his friends are already dead. </p>
+      <p>He's 5'2 in height, a result of his malnourishment in his childhood years. He's also a heavily implied germaphobe, also a result of his childhood, since he was born in the lowest social hierarchy in the Walls.</p>
+      <p> Despite that, his lineage was well-respected, until his time where they started discriminating against the Ackermans.</p>
+      <p> The Ackermans were experimented on, leading to increased body strength and were made to be the bodyguards of the Royal Family. However, they were treated like robots, and with most of their sour attitudes and robot-like personalities, eventually hunted down.</p>
 
       <h3>Levi’s Battle Record</h3>
       <table>
