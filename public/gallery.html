@@ -6,13 +6,13 @@
   <title>Levi Ackerman | Gallery</title>
   <link rel="icon" type = "image/png" href = "https://tse1.mm.bing.net/th/id/OIP.y9eYrtuLkihaJk5oqVB0ggHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3">
   <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/5a/Scouting_Legion_Logo.png" type="image/png">
-     <style>
+   <style>
         body {
             margin: 0;
             font-family: 'Georgia', serif;
-            background: linear-gradient(to right, #c2a98a, #f1e2d0, #b69477, #9b7a63);
+            background: linear-gradient(to right, #fbe9e7, #f8d7da, #f3c5c5, #efd9ce);
             background-attachment: fixed;
-            color: #3e2e26;
+            color: #4a2f2f;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -20,21 +20,21 @@
         }
 
         header {
-            background-color: rgba(245, 235, 220, 0.85);
+            background-color: rgba(255, 245, 247, 0.9);
             border-radius: 20px;
             margin-top: 25px;
             padding: 25px 50px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+            box-shadow: 0 4px 12px rgba(255, 182, 193, 0.4);
         }
 
         header h1 {
             font-size: 2.8em;
-            color: #4e3a33;
+            color: #b04a5a;
         }
 
         header h2 {
             font-size: 1.2em;
-            color: #7a6657;
+            color: #8a5a5a;
             font-style: italic;
         }
 
@@ -44,92 +44,87 @@
 
         nav a {
             text-decoration: none;
-            color: #4b3b36;
-            background-color: #decbb6;
+            color: #5a3d3d;
+            background-color: #f7cfd3;
             padding: 10px 20px;
             border-radius: 12px;
             margin: 6px;
             transition: all 0.3s;
             font-weight: bold;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         }
 
         nav a:hover {
-            background-color: #a98b76;
+            background-color: #e89cae;
             color: #fff;
+            transform: scale(1.05);
         }
 
         .content {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(255, 255, 255, 0.95);
             border-radius: 25px;
             padding: 40px;
             margin: 20px;
             width: 80%;
-            max-width: 900px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.25);
-        }
-
-        .photo-frame {
-            display: inline-block;
-            background: #6e5544; 
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-            margin: 25px auto;
-        }
-
-        .photo-frame-inner {
-            background: #f5eee5; 
-            padding: 10px;
-            border-radius: 4px;
-            box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-        }
-
-        .photo-frame img {
-            display: block;
-            width: 100%;
-            max-width: 450px;
-            border-radius: 4px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+            max-width: 1000px;
+            box-shadow: 0 4px 15px rgba(255, 192, 203, 0.4);
         }
 
         .frame-soft {
-            border: 6px solid #b79f8a;
-            border-radius: 12px;
-            background-color: #f9f1e8;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-            width: 55%;
+            border: 6px solid #f3c5c5;
+            border-radius: 15px;
+            background-color: #fff6f7;
+            box-shadow: 0 4px 12px rgba(255, 192, 203, 0.5);
+            width: 85%;
             margin: 25px auto;
-            padding: 6px;
+            padding: 25px;
             transition: all 0.3s ease;
         }
 
         .frame-soft:hover {
-            transform: scale(1.03);
+            transform: scale(1.02);
+            box-shadow: 0 8px 20px rgba(255, 182, 193, 0.6);
         }
 
-        table {
-            border-collapse: collapse;
-            width: 90%;
-            margin: 25px auto;
-            background-color: #f5eee5;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-        }
-
-        th, td {
-            border: 1px solid #7a6657;
+        .photo-frame {
+            display: inline-block;
+            background: #f4c2c2;
             padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(255, 182, 193, 0.5);
+            margin: 15px;
+            width: 280px;
+            height: 320px;
+            overflow: hidden;
+            transition: all 0.3s ease;
         }
 
-        th {
-            background-color: #a98b76;
-            color: white;
+        .photo-frame:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(255, 160, 180, 0.6);
+        }
+
+        .photo-frame-inner {
+            background: #fff1f2;
+            padding: 6px;
+            border-radius: 5px;
+            box-shadow: inset 0 0 8px rgba(255, 192, 203, 0.4);
+            width: 100%;
+            height: 100%;
+        }
+
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
         }
 
         footer {
             margin-top: 35px;
             padding: 20px;
-            background-color: rgba(91, 69, 59, 0.9);
-            color: #f4e9da;
+            background-color: rgba(255, 182, 193, 0.9);
+            color: #4a2f2f;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
             width: 100%;
@@ -137,19 +132,28 @@
         }
 
         footer a {
-            color: #f4e9da;
+            color: #4a2f2f;
             text-decoration: none;
             margin: 0 10px;
+            font-weight: bold;
         }
 
         footer a:hover {
             text-decoration: underline;
+            color: #8a3b3b;
         }
 
         iframe {
             border-radius: 15px;
             margin-top: 15px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            box-shadow: 0 2px 8px rgba(255, 182, 193, 0.4);
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
         }
     </style>
 </head>
